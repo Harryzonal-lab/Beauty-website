@@ -1,0 +1,232 @@
+body{
+    max-width: 1728px;
+    margin: 0 auto;
+}
+#fist{
+    color:  grey;
+    width: 1728;
+
+}
+.navbar {
+    background-color:rgb(250, 248, 245);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    
+}
+nav{
+    display: flex;
+    gap: 30px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+.us{
+    background-image: url(purple\ background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.us h1{
+    display: flex;
+    justify-content:center ;
+    color: antiquewhite;
+    font-size: 60px;
+}
+.aims{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    
+}
+.unique{
+    width: 45%;
+}
+#Elevate{
+     font-size: 50px;
+     margin-top: 10px;
+}
+.intentions{
+     line-height: 1.8;
+     margin-bottom: 20px;
+     font-size: 30px;
+}
+#we{
+    font-size:20px ;
+}
+
+.beautiful{
+     position: relative;
+     margin-top: -80px;
+
+}
+
+.facehair{
+    position: relative;
+    width: 500px;
+    
+}
+.smileface{
+    width: 350px;
+    border-radius: 5px;
+    width: 611px;
+    height: 626px;
+}
+.wigback{
+    width: 285px;
+    height: 288px;
+    position: absolute;
+    left: -180px;
+    bottom:180px;
+    border: solid white;
+}
+.pictures{
+   position: relative;
+    margin-top: 20px;
+    padding: 20px 0;
+    margin-bottom:80px;
+
+}
+.background-text{
+    position: absolute;
+    bottom: 250px;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 200px;
+    color: transparent;
+    -webkit-text-stroke: 1px gray;
+    z-index: 0;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    z-index: 1;
+}
+.girl{
+    width:347px;
+    height:496px;
+    border-radius:500px;
+    object-fit:cover;
+    margin-bottom:px;
+}
+.oilhair{
+    width:285px;
+    height: 346px;
+    transform:rotate(-12deg);
+    border-radius:10px;
+}
+.hair{
+    width:347px;
+    height: 346px;
+    transform:rotate(10deg);
+    border-radius:10px;
+}
+.toys{
+margin-top: 80px;
+    
+}
+.wigs{
+    bottom: 180px;
+}
+.offer {
+    margin-top: -250px;
+    text-align: center;
+    padding: 200px;  
+}
+.offer h2{
+font-size: 50px;
+}
+.offer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+}.offer-card{
+    flex: 1;
+    text-align: center;
+    width: 100px;
+    height: 70px;
+}
+.offer-card img {
+    width: 80px;
+    height: 60px;      /* Same height for every icon */
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.offer-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}.offer-card p {
+    font-size: 30px;
+    line-height: 1.6;
+    color: gray;
+}
+.offer-card p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: gray;
+}
+.founder {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.founder-image {
+    position: relative;
+    z-index: 2;
+    margin-right: -80px;
+}
+
+.founder-image img {
+    width: 611px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+.founder-info {
+    width: 1000px;
+height: 550px;
+    background-image: url("purple2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 0 100px 0 120px;
+
+    color: white;
+}
+.founder-info h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.founder-info p {
+    font-size: 20px;
+    line-height: 1.8;
+}
+footer{
+    margin-top: 70px;
+}
